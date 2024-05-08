@@ -1,3 +1,6 @@
+# Pas config-server-repo/
+config-server-repo
+
 microservice-commandes/target/
 !microservice-commandes/.mvn/wrapper/maven-wrapper.jar
 !microservice-commandes/**/src/main/**/target/
