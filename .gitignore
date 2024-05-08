@@ -21,6 +21,8 @@ clientui/.mvn/wrapper/maven-wrapper.jar
 ### STS ###
 .metadata
 
+config-server-repo/.settings
+
 microservice-commandes/.apt_generated
 microservice-commandes/.classpath
 microservice-commandes/.factorypath
