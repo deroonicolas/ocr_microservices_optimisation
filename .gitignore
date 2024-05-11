@@ -26,6 +26,11 @@ config-server/.mvn/wrapper/maven-wrapper.jar
 !config-server/**/src/main/**/target/
 !config-server/**/src/test/**/target/
 
+eureka-server/target/
+!eureka-server/.mvn/wrapper/maven-wrapper.jar
+!eureka-server/**/src/main/**/target/
+!eureka-server/**/src/test/**/target/
+
 ### STS ###
 .metadata
 
@@ -71,3 +76,11 @@ config-server/.project
 config-server/.settings
 config-server/.springBeans
 config-server/.sts4-cache
+
+eureka-server/.apt_generated
+eureka-server/.classpath
+eureka-server/.factorypath
+eureka-server/.project
+eureka-server/.settings
+eureka-server/.springBeans
+eureka-server/.sts4-cache
