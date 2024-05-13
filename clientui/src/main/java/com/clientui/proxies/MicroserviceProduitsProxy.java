@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.clientui.beans.ProductBean;
 
-@FeignClient(name = "microservice-produits", url = "localhost:9001")
+// Delete URL for Ribbon
+//@FeignClient(name = "microservice-produits"/*, url = "localhost:9001"*/)
+@FeignClient(name = "microservice-produits")
 public interface MicroserviceProduitsProxy {
 
 	@GetMapping(value = "/Produits")
